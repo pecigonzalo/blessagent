@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+blessagent = {path = ".", editable = true}
+
+[dev-packages]
+isort = "*"
+"flake8" = "*"
+jedi = "*"
+ipython = "*"
+pytest = "*"
+
+[requires]
+python_version = "3.6"
