@@ -11,7 +11,7 @@ isort = "*"
 "flake8" = "*"
 jedi = "*"
 ipython = "*"
-pytest = "*"
+pytest = "7.2.0"
 
 [requires]
 python_version = "3.8"
